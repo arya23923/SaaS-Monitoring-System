@@ -102,7 +102,7 @@ const { data: session, status } = useSession();
     {/* Left Side (Same) */}
     <div>
       <h2 className="text-3xl font-bold mb-4">Simple Integration</h2>
-      <p className="text-zinc-400 mb-6 w-100 lg:w-full">
+      <p className="text-zinc-400 mb-6 w-full lg:w-full">
         Add our SDK to your application in minutes. Start monitoring with just a few lines of code.
       </p>
       <div className="space-y-4 text-white">
@@ -122,9 +122,9 @@ const { data: session, status } = useSession();
     </div>
 
     {/* Right Side (3-Step Boxes) */}
-    <div className="space-y-6">
+    <div className="space-y-6 overflow-x-auto">
       {/* Step 1 */}
-      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-95 lg:w-185">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-full lg:w-2.5xl">
         <h3 className="text-lg font-semibold mb-2 text-emerald-500">Step 1: Install the SDK</h3>
         <pre className="text-sm bg-zinc-950 p-3 rounded-md overflow-x-auto">
           <code className="language-bash text-zinc-100">
@@ -134,7 +134,7 @@ const { data: session, status } = useSession();
       </div>
 
       {/* Step 2 */}
-      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-95 lg:w-185">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-full lg:w-2.5xl">
         <h3 className="text-lg font-semibold mb-2 text-emerald-500">Step 2: Get your API key</h3>
         <p className="text-zinc-400 text-sm">
           Retrieve the <span className="text-white font-medium">api_key</span> for your corresponding service from your SaaS Monitoring Dashboard.
@@ -142,7 +142,7 @@ const { data: session, status } = useSession();
       </div>
 
       {/* Step 3 */}
-      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 overflow-hidden w-95 lg:w-185">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 overflow-hidden w-full lg:w-2.5xl">
         <h3 className="text-lg font-semibold mb-2 text-emerald-500">Step 3: Add this code to your entry server's point</h3>
         <pre className="text-sm bg-zinc-950 p-3 rounded-md overflow-x-auto">
           <code className="language-javascript text-zinc-100">
