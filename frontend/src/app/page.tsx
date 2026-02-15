@@ -124,7 +124,7 @@ const { data: session, status } = useSession();
     {/* Right Side (3-Step Boxes) */}
     <div className="space-y-6">
       {/* Step 1 */}
-      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-95 lg:w-150">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-95 lg:w-185">
         <h3 className="text-lg font-semibold mb-2 text-emerald-500">Step 1: Install the SDK</h3>
         <pre className="text-sm bg-zinc-950 p-3 rounded-md overflow-x-auto">
           <code className="language-bash text-zinc-100">
@@ -134,7 +134,7 @@ const { data: session, status } = useSession();
       </div>
 
       {/* Step 2 */}
-      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-95 lg:w-150">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 w-95 lg:w-185">
         <h3 className="text-lg font-semibold mb-2 text-emerald-500">Step 2: Get your API key</h3>
         <p className="text-zinc-400 text-sm">
           Retrieve the <span className="text-white font-medium">api_key</span> for your corresponding service from your SaaS Monitoring Dashboard.
@@ -142,7 +142,7 @@ const { data: session, status } = useSession();
       </div>
 
       {/* Step 3 */}
-      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 overflow-hidden w-95 lg:w-150">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 overflow-hidden w-95 lg:w-185">
         <h3 className="text-lg font-semibold mb-2 text-emerald-500">Step 3: Add this code to your entry server's point</h3>
         <pre className="text-sm bg-zinc-950 p-3 rounded-md overflow-x-auto">
           <code className="language-javascript text-zinc-100">
